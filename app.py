@@ -6,7 +6,8 @@ from tensorflow import keras
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
-
+import keras
+from keras.preprocessing import sequence
 
 
 
