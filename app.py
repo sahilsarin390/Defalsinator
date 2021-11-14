@@ -24,7 +24,7 @@ X = list()
 X.append(news_title)
 tokenizer = open('model/tokenizer.pkl', 'rb')
 tokenized = joblib.load(tokenizer)
-max_len = 300
+max_len = 150
 tokenized_pred = tokenized.texts_to_sequences(X)
 X = sequence.pad_sequences(tokenized_pred, maxlen=max_len)
 
