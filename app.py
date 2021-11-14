@@ -9,6 +9,8 @@ lemmatizer = WordNetLemmatizer()
 import keras
 from keras.preprocessing import sequence
 
+
+
 voc_size = 10000
 news_title = ""
 sent_length= 50
